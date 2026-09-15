@@ -2,7 +2,7 @@
 
 ## Resumo
 
-O código original tocava uma lista fixa de ~32 músicas em sequência,
+O meu projeto original tocava uma lista fixa de ~32 músicas em sequência,
 uma atrás da outra, sem nenhuma interação do usuário. Esta versão
 transforma o projeto em uma **caixa de música controlada por uma
 página web**: o ESP32 cria um servidor HTTP e qualquer pessoa
