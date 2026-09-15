@@ -1507,7 +1507,7 @@ tempopantera = 120
 # =========================================================
 # Musicas convertidas do formato RTTTL (Ring Tone Text Transfer
 # Language) para o formato deste projeto. Fonte: colecao de RTTTLs
-# fornecida pelo usuario (temas de TV/filmes/jogos classicos).
+# (temas de TV/filmes/jogos classicos).
 # Conversao: duracao/oitava herdadas do cabecalho RTTTL quando a
 # nota nao especifica; "." (nota pontuada) vira duracao NEGATIVA,
 # igual a convencao ja usada nas musicas acima; "p" (pausa) vira REST.
