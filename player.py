@@ -59,7 +59,7 @@ class MusicPlayer:
       - a última música tocada (para restaurar depois de reiniciar)
     """
 
-    def __init__(self, buzzer_pin=25, pwm_freq=1000):
+    def __init__(self, buzzer_pin=23, pwm_freq=1000):
         # Configura o pino do buzzer, igual ao código original.
         self.buzzer = PWM(Pin(buzzer_pin), freq=pwm_freq, duty=0)
 
