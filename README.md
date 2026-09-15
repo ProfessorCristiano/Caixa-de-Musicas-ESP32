@@ -3,9 +3,9 @@ Programa feito para emular um JukeBox com várias músicas em formatos polifôni
 
 ## Como usar
 * Edite config.py:
-- Preencha WIFI_SSID e WIFI_PASSWORD com os dados da sua rede.
-- Ou defina USAR_MODO_ACCESS_POINT = True para o ESP32 criar sua própria rede Wi-Fi (útil sem roteador disponível).
-- Confira PINO_BUZZER (padrão: GPIO 23, igual ao original).
+    - Preencha WIFI_SSID e WIFI_PASSWORD com os dados da sua rede.
+    - Ou defina USAR_MODO_ACCESS_POINT = True para o ESP32 criar sua própria rede Wi-Fi (útil sem roteador disponível).
+    - Confira PINO_BUZZER (padrão: GPIO 23, igual ao original).
 * Copie os 5 arquivos (songs.py, player.py, web_server.py, config.py, main.py) para a raiz do sistema de arquivos do ESP32 (por exemplo, usando mpremote, ampy ou o Thonny).
 * Ligue o ESP32. Observe no console serial a mensagem com o IP (algo como Conectado! Acesse a caixa de música em: http://192.168.0.42).
 * Abra esse endereço no navegador de um celular/computador conectado à mesma rede.
