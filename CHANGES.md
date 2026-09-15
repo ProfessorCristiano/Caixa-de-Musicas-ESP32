@@ -75,7 +75,7 @@ o que está tocando na tela (sem precisar recarregar a página).
    - Preencha `WIFI_SSID` e `WIFI_PASSWORD` com os dados da sua rede.
    - Ou defina `USAR_MODO_ACCESS_POINT = True` para o ESP32 criar sua
      própria rede Wi-Fi (útil sem roteador disponível).
-   - Confira `PINO_BUZZER` (padrão: GPIO 25, igual ao original).
+   - Confira `PINO_BUZZER` (padrão: GPIO 23, igual ao original).
 2. Copie os 5 arquivos (`songs.py`, `player.py`, `web_server.py`,
    `config.py`, `main.py`) para a raiz do sistema de arquivos do ESP32
    (por exemplo, usando `mpremote`, `ampy` ou o Thonny).
